@@ -1,7 +1,7 @@
 let names = ['Alice', 'Bob', 'Marry', 'Joe', 'Hilary', 'Stevia', 'Dylan'];
 
-let prepender = function(name) {
-	return 'My name is: '+name;
-};
+let prepender = names.map(function (name) {
+	return `My name is: ${name}`;
+});
 
-// Your code here
+console.log(prepender)

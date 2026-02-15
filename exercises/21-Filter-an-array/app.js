@@ -2,4 +2,10 @@ let allNames = ["Romario", "Boby", "Roosevelt", "Emiliy", "Michael", "Greta", "P
 
 // Your code here
 
+let resultingNames = allNames.filter(function (str) {
+    if (str.includes('R')) {
+        return str
+    }
+});
+
 console.log(resultingNames);

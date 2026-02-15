@@ -10,3 +10,8 @@ let tasks = [
 ];
 
 // Your code here
+function onlyTrue(arr) {
+  return arr.done === true;
+}
+let result = tasks.filter(onlyTrue);
+console.log(result);
